@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: linear-gradient(35deg, #007592 0%, #00ccc2 100%);
+  font-family: sans-serif;
+}
+
+.blur {
+  -webkit-filter: blur(7px);
+          filter: blur(7px);
+}
+
+.app {
+  position: relative;
+  width: 400px;
+  height: 370px;
+  color: white;
+}
+
+.app .now {
+  -webkit-transition: -webkit-filter 1s;
+  transition: -webkit-filter 1s;
+  transition: filter 1s;
+  transition: filter 1s, -webkit-filter 1s;
+  position: absolute;
+  bottom: 0;
+  height: 180px;
+  width: 100%;
+  background: linear-gradient(139deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 15px;
+  -webkit-box-shadow: -3px -3px 10px #ffffff85;
+          box-shadow: -3px -3px 10px #ffffff85;
+  padding: 20px;
+  -webkit-transition: -webkit-filter 1.6s;
+  transition: -webkit-filter 1.6s;
+  transition: filter 1.6s;
+  transition: filter 1.6s, -webkit-filter 1.6s;
+}
+
+.app .now .left {
+  line-height: 25px;
+}
+
+.app .now .left h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.app .now .left h4 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.app .now .left p {
+  font-size: 12px;
+}
+
+.app .now img {
+  position: absolute;
+  top: 60px;
+  left: 125px;
+  width: 160px;
+}
+
+.app .now .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+}
+
+.app .now .right p {
+  font-size: 90px;
+  font-weight: 200;
+}
+
+.app .daily {
+  padding: 20px;
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 15px;
+  -webkit-box-shadow: -3px -3px 10px #ffffff85;
+          box-shadow: -3px -3px 10px #ffffff85;
+  text-align: center;
+}
+
+.app .daily p {
+  margin-bottom: 15px;
+}
+
+.app .daily input {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffffb2;
+  padding-left: 10px;
+}
+
+.app .daily button {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffffb2;
+  color: #000000;
+  border: 2px solid #007592;
+}
+/*# sourceMappingURL=main.css.map */

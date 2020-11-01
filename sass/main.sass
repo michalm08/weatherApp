@@ -1,0 +1,96 @@
+*
+    margin: 0
+    padding: 0
+
+body
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh;
+    background: linear-gradient(35deg, rgba(0,117,146,1) 0%, rgba(0,204,194,1) 100%);
+    font-family: sans-serif
+    
+.blur
+    filter: blur(7px);
+
+
+.app
+    position: relative
+    width: 400px
+    height: 370px
+    // background-color: #225fe46c
+    color: white
+    
+
+
+
+    .now
+        transition: filter 1s
+        position: absolute
+        bottom: 0
+        height: 180px
+        width: 100%
+        background: linear-gradient(139deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%);
+        border-radius: 15px
+        box-shadow: -3px -3px 10px #ffffff85
+        // margin: 20px
+        padding: 20px
+        transition: filter 1.6s
+
+        .left
+            line-height: 25px
+            h3
+                font-size: 30px
+                letter-spacing: 1px
+            h4
+                font-size: 20px
+                font-weight: normal
+            p
+                font-size: 12px
+
+        img
+            position: absolute
+            top: 60px
+            left: 125px
+            width: 160px
+
+        .right
+            position: absolute
+            right: 0
+            top: 0
+            padding: 20px
+            p
+                font-size: 90px
+                font-weight: 200
+
+    //zmienione na input
+    .daily
+        padding: 20px
+        height: 80px
+        width: 100%
+        background: linear-gradient(160deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%);
+        border-radius: 15px
+        box-shadow: -3px -3px 10px #ffffff85
+        text-align: center
+        p
+            margin-bottom: 15px
+            
+
+        input
+            height: 30px
+            border: none
+            border-radius: 5px
+            background-color: #ffffffb2
+            padding-left: 10px
+
+            
+        
+        button
+            height: 30px
+            width: 100px
+            border: none
+            border-radius: 5px
+            background-color: #ffffffb2
+            color: #000000
+            border: 2px solid#007592
+            // text-shadow: 0px 0px 3px black
