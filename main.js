@@ -75,7 +75,7 @@ const takeDay=()=>{
         case 6:
             today.textContent='Sobota';
             break;
-        case 7:
+        case 0:
             today.textContent='Niedziela';
             break;
     }
