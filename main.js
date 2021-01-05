@@ -87,7 +87,7 @@ const takeDate=()=>{
     let d = new Date();
     let day = d.getDate();
     if(day<10){day='0'+day};
-    let month = d.getMonth()
+    let month = d.getMonth()+1
     if(month<10){month='0'+month};
     let year = d.getFullYear()
     myDate.textContent=`${day}/${month}/${year}`
